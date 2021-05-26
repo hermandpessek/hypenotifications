@@ -1,0 +1,26 @@
+{
+	"name": "pessek/hypenotifications",
+    	"description": "Enhanced on-site and off-site notifications",
+    	"type": "elgg-plugin",
+   	 "license": "proprietary",
+	"extra": {
+		"installer-name": "hypeNotifications"
+	},
+    	"require": {
+		"php": ">=7.1",
+		"composer/installers": ">=2",
+		"zendframework/zend-mail": "~2.4",
+		"zendframework/zend-servicemanager": "~2.4",
+		"pelago/emogrifier": "~4.0",
+		"sendgrid/sendgrid": "^6.0",
+		"guzzlehttp/guzzle": "^6.3",
+		"php-http/guzzle6-adapter": "^1.1",
+		"sparkpost/sparkpost": "^2.1",
+		"mailgun/mailgun-php": "^2.4"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "classes/"
+		}
+	}
+}
